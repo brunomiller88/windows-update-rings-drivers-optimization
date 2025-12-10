@@ -24,3 +24,35 @@ Abaixo está a tela real da política de atualização "Atualizar o anel para Wi
 - Melhora a **taxa de conformidade** entre dispositivos.
 
 
+---
+
+### Conclusão Técnica
+
+O ajuste realizado neste anel de atualização reduz consideravelmente o tempo entre o download e a instalação dos updates, especialmente em dispositivos que dependem de drivers atualizados para concluir o processo.
+
+Com essa configuração:
+
+- Dispositivos não ficam travados aguardando drivers.
+- O update é aplicado assim que possível, com menos janelas de exposição.
+- O comportamento dos devices torna-se mais previsível e consistente.
+- Atualizações críticas (como patches do Windows 11) fluem com menor chance de interrupção.
+
+---
+
+### Quando aplicar essa estratégia?
+
+- Cenários com **alta criticidade** (ex.: patch emergencial).
+- Ambientes com **equipamentos heterogêneos**, onde drivers possuem impacto.
+- Redes corporativas que precisam **reduzir tempo para conformidade.**
+
+---
+
+### Possíveis métricas a serem observadas
+
+- Tempo médio entre **download → instalação**
+- Percentual de dispositivos **atualizados com sucesso**
+- Número de dispositivos com **falhas de driver pós-update**
+- Correlação com **KBs críticos / CVEs aplicados**
+
+---
+
